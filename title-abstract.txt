@@ -1,5 +1,5 @@
 Title:
-<MY SUPER AWESOME PROJECT TITLE>
+Uncertainty Quantification and Spatiotemporal Analysis
 
 Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+In spatiotemporal forecasting, deep learning models need to not only make predictions but also quantify their predictions' certainty (uncertainty). For example, consider a stock automatic trading system where a machine learning model predicts the stock price. A point prediction from the model might be dramatically different from the real value because of the high stochasticity of the stock market. But, on the other hand, if the model could estimate the range which guarantees to cover the true value with high probability, the trading system could compute the best and worst rewards and make more sensible decisions. And this is where conformal prediction technique comes in, which is a technique for quantifying such uncertainties for models. In the paper, we seek to evaluate the performance and quality of conformal quantile regression that embeds uncertainty metrics into their output. Beyond this, we will also seek to contribute to the torchTS library by implementing a data loader class. This class will be designed to preprocess and split up data into training, calibration, and test sets in a more consistent format for our models to be more easily applied. Lastly, we aim to improve the torchTS library API documentation to present the library's functionality in an easily understood way as well as present users with examples of torchTS' spatiotemporal analysis methods being used.
